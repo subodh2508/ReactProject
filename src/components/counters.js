@@ -5,6 +5,7 @@ import "./../index.css";
 class Counters extends Component {
   showCounters = () => {
     const { counters } = this.props;
+    console.log("counters", counters);
     if (counters.length === 0) {
       return "No counter avilable";
     }
